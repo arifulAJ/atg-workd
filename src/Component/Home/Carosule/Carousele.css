@@ -1,0 +1,27 @@
+.backgroundSet{
+    background-image: url(https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bW9uaXRvcnxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(red, green, blue, 0.7);
+  
+}
+.fixedPlace{
+  
+    transform: translate(200px, 236px);
+    width: 50%;
+ 
+}
+.styleSm{
+    display: flex;
+    justify-content: end;
+   
+}
+@media only screen and (max-width: 600px) {
+    .fixedPlace{
+  
+        transform: translate(20px, 216px);
+        width: 90%;
+       ;
+     
+    }
+  }

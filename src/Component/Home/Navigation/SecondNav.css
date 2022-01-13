@@ -1,0 +1,30 @@
+.secondNav{
+    display: flex;
+    list-style: none;
+ 
+   
+   
+}
+.secondNav li{
+    padding-left: 20px;
+    font-size: larger;
+}
+.secondNav li:hover{
+    
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+}
+.secondNavL{
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: end;
+ 
+}
+.secondNavL li{
+    padding-left: 10px;
+    font-size: larger;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
