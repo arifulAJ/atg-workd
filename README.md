@@ -3,6 +3,7 @@
 
 
 ## technology used 
+<li> React js</li>
 <li> HTML</li>
 <li> CSS</li>
 <li> BOOSTRAP</li>
