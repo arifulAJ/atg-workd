@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,800&family=IBM+Plex+Sans:wght@300;400;500;700&display=swap');
+
 .pen{
     padding-left: 120px;
 }
@@ -12,4 +14,11 @@
     list-style: none;
     justify-content: space-between;
     align-items: center;
+}
+.newAgent{
+    display: flex;
+    flex-direction: row;
+}
+.threeDot{
+    margin-left: auto;
 }

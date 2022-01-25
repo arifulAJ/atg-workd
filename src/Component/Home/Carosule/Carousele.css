@@ -1,13 +1,23 @@
 .backgroundSet{
-    background-image: url(https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bW9uaXRvcnxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-image: url("https://i.ibb.co/MZHHXDZ/atg.png");
+    
+    background-color: rgba(red, green, blue, 0.7); 
+ 
     background-repeat: no-repeat;
+    /* background-position:center ; */
+
     background-size: cover;
-    background-color: rgba(red, green, blue, 0.7);
+   
+   height: 400px;
+
+
+ 
+
   
 }
 .fixedPlace{
   
-    transform: translate(200px, 236px);
+    transform: translate(100px, 226px);
     width: 50%;
  
 }
@@ -16,12 +26,49 @@
     justify-content: end;
    
 }
+.buttonsmall{
+    padding-left: 5px;
+    padding: 10px 10px;
+    margin-top: 2px;
+}
+
 @media only screen and (max-width: 600px) {
-    .fixedPlace{
-  
-        transform: translate(20px, 216px);
-        width: 90%;
-       ;
-     
-    }
+    
+.mgpt{
+   
+    background-image: url("/img/Rectangle\ 2.png");
+    
+    background-color: rgba(red, green, blue, 0.7); 
+ 
+    background-repeat: no-repeat;
+    /* background-position:center ; */
+    padding: 40px;
+
+    background-size: contain;
+ 
+   height:100vh;
+   padding-bottom: 300px;
   }
+  .fixedPlace{
+  
+    transform: translate(10px, 56px);
+    width: 100%;
+    
+ 
+}
+.h1font {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+
+}
+.pfont{
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+.buttonsmall{
+    padding:0px 10px;
+    margin: 0%;
+}
+}

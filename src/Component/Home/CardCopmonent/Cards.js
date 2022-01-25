@@ -3,19 +3,22 @@ import './Cards.css'
 
 const Cards = () => {
     return (
-        <div className='row row-cols-lg-2 container mx-auto pt-3'>
+        <div className='row row-cols-lg-2  container mx-auto pt-3'>
             <div>
-             <div class="col">
+             <div class="col pb-4">
             <div class="card">
-            <img  src="https://images.unsplash.com/photo-1547016058-bc22b729f0bd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8&w=1000&q=80" class="card-img-top" alt="..."/>
+            <img  src="https://i.ibb.co/CVBLVFn/atcn.png" class="card-img-top" alt="..."/>
             <div class="card-body">
-                <h5 class="card-title">What if famous brands had regular fonts? Meet RegulaBrands!</h5>
+                <p >✍️ Article</p>
+                <div className='newAgent'>
+                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>  <span className='threeDot'><i class="fas fa-ellipsis-h"></i></span>
+                </div>
                 <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei….</p>
                 <div >
                     <ul className='cardFeet'>
-                        <li > <img className='images' src="https://media.istockphoto.com/photos/smiling-indian-man-looking-at-camera-picture-id1270067126?k=20&m=1270067126&s=612x612&w=0&h=ZMo10u07vCX6EWJbVp27c7jnnXM2z-VXLd-4maGePqc=" alt="" /></li>
+                        <li > <img className='images' src="https://i.ibb.co/Kr09bDd/Rectangle-3.png" alt="" /></li>
                         <li><i class="fas fa-eye"></i> 1.4k views</li>
-                        <li style={{backgroundColor:"gray",width:""}}><i class="fas fa-share-alt"></i></li>
+                        <li style={{backgroundColor:"#EBEBEB",width:"30px",textAlign:"center"}}><i class="fas fa-share-alt"></i></li>
                     </ul>
                 </div>
             </div>
@@ -23,15 +26,38 @@ const Cards = () => {
          </div>
              <div class="col">
             <div class="card">
-            <img  src="https://images.unsplash.com/photo-1547016058-bc22b729f0bd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8&w=1000&q=80" class="card-img-top" alt="..."/>
+            <img  src="https://i.ibb.co/h8NsT98/atcb.png" class="card-img-top" alt="..."/>
             <div class="card-body">
-                <h5 class="card-title">What if famous brands had regular fonts? Meet RegulaBrands!</h5>
+                <p>🔬️ Education</p>
+                <div className='newAgent'>
+                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>  <span className='threeDot'><i class="fas fa-ellipsis-h"></i></span>
+                </div>
+               
                 <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei….</p>
                 <div >
                     <ul className='cardFeet'>
-                        <li > <img className='images' src="https://media.istockphoto.com/photos/smiling-indian-man-looking-at-camera-picture-id1270067126?k=20&m=1270067126&s=612x612&w=0&h=ZMo10u07vCX6EWJbVp27c7jnnXM2z-VXLd-4maGePqc=" alt="" /></li>
+                        <li > <img className='images' src="https://i.ibb.co/HB4Dhw4/Rectangle-3-1.png" alt="" /></li>
                         <li><i class="fas fa-eye"></i> 1.4k views</li>
-                        <li style={{backgroundColor:"gray",width:""}}><i class="fas fa-share-alt"></i></li>
+                        <li style={{backgroundColor:"#EBEBEB",width:"30px",textAlign:"center"}}><i class="fas fa-share-alt"></i></li>
+                    </ul>
+                </div>
+            </div>
+         </div> 
+         </div>
+             <div class="col pb-4 pt-4">
+            <div class="card">
+            <img  src="https://i.ibb.co/gDhKz2d/atgc.png" class="card-img-top" alt="..."/>
+            <div class="card-body">
+                <p>🗓️ Meetup</p>
+                <div className='newAgent'>
+                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>  <span className='threeDot'><i class="fas fa-ellipsis-h"></i></span>
+                </div>
+                <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei….</p>
+                <div >
+                    <ul className='cardFeet'>
+                        <li > <img className='images' src="https://i.ibb.co/sbFm7B2/Rectangle-3-2.png" alt="" /></li>
+                        <li><i class="fas fa-eye"></i> 1.4k views</li>
+                        <li style={{backgroundColor:"#EBEBEB",width:"30px",textAlign:"center"}}><i class="fas fa-share-alt"></i></li>
                     </ul>
                 </div>
             </div>
@@ -39,15 +65,18 @@ const Cards = () => {
          </div>
              <div class="col">
             <div class="card">
-            <img  src="https://images.unsplash.com/photo-1547016058-bc22b729f0bd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8&w=1000&q=80" class="card-img-top" alt="..."/>
+            {/* <img  src="https://i.ibb.co/gDhKz2d/atgc.png" class="card-img-top" alt="..."/> */}
             <div class="card-body">
-                <h5 class="card-title">What if famous brands had regular fonts? Meet RegulaBrands!</h5>
+                <p>💼️ Job</p>
+                <div className='newAgent'>
+                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>  <span className='threeDot'><i class="fas fa-ellipsis-h"></i></span>
+                </div>
                 <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei….</p>
                 <div >
                     <ul className='cardFeet'>
-                        <li > <img className='images' src="https://media.istockphoto.com/photos/smiling-indian-man-looking-at-camera-picture-id1270067126?k=20&m=1270067126&s=612x612&w=0&h=ZMo10u07vCX6EWJbVp27c7jnnXM2z-VXLd-4maGePqc=" alt="" /></li>
+                        <li > <img className='images' src="https://i.ibb.co/ZdwfzwT/Rectangle-3-3.png" alt="" /></li>
                         <li><i class="fas fa-eye"></i> 1.4k views</li>
-                        <li style={{backgroundColor:"gray",width:""}}><i class="fas fa-share-alt"></i></li>
+                        <li style={{backgroundColor:"#EBEBEB",width:"30px",textAlign:"center"}}><i class="fas fa-share-alt"></i></li>
                     </ul>
                 </div>
             </div>
