@@ -40,3 +40,19 @@
     font-size:large;
     background: none;
 }
+.clickable{
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: large;
+    color: #E56135;
+    ;
+    
+}
+.clickables{
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: large;
+    color: #02B875;
+    ;
+    
+}

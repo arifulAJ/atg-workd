@@ -14,7 +14,7 @@ const Cards = () => {
  
 
     return (
-        <div className='row row-cols-lg-2  container mx-auto pt-3'>
+        <div className='row row-cols-lg-2 pb-5  container mx-auto pt-3'>
             <div>
              <div class="col pb-4">
             <div class="card">
@@ -62,7 +62,7 @@ const Cards = () => {
             <div class="card-body">
                 <p>🔬️ Education</p>
                 <div className='newAgent'>
-                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>  
+                <h5 class="card-title w-75">Tax Benefits for Investment under National Pension Scheme launched by Government  </h5>  
                 <span className='threeDot'>
                 <div class="accordion" id="accordionExample">
                 <div class="">
@@ -103,7 +103,7 @@ const Cards = () => {
             <div class="card-body">
                 <p>🗓️ Meetup</p>
                 <div className='newAgent'>
-                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5> 
+                <h5 class="card-title w-75">Finance & Investment Elite Social Mixer @Lujiazui  </h5> 
                  <span className='threeDot'>
                  <div class="accordion" id="accordionExample">
                 <div class="">
@@ -126,7 +126,10 @@ const Cards = () => {
                 
                      </span>
                 </div>
-                <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei….</p>
+               <div  className='  w-75 mx-auto text-center   p-3'>
+              
+               <p className='clickable'>visit website</p>
+               </div>
                 <div >
                     <ul className='cardFeet'>
                         <li > <img className='images' src="https://i.ibb.co/sbFm7B2/Rectangle-3-2.png" alt="" /></li>
@@ -143,7 +146,7 @@ const Cards = () => {
             <div class="card-body">
                 <p>💼️ Job</p>
                 <div className='newAgent'>
-                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>
+                <h5 class="card-title w-75">Software Developer </h5>
                   <span  className='threeDot'>
                      
                 <div class="accordion" id="accordionExample">
@@ -156,7 +159,7 @@ const Cards = () => {
                     <div id="collapseOne" class=" collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="">
                     <ul id='addPost'  className='listOf '>
-                                    <li>Edit</li>
+                    <li>Edit</li>
                     <li>Report</li>
                     <li>Option 3</li>
                     </ul>
@@ -167,7 +170,10 @@ const Cards = () => {
                 
                     </span>
                 </div>
-                <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei….</p>
+                <div  className='  w-75 mx-auto text-center   p-3'>
+              
+               <p className='clickables'>Apply on Times jobs</p>
+               </div>
                 <div >
                     <ul className='cardFeet'>
                         <li > <img className='images' src="https://i.ibb.co/ZdwfzwT/Rectangle-3-3.png" alt="" /></li>
