@@ -22,3 +22,21 @@
 .threeDot{
     margin-left: auto;
 }
+.listOf{
+    padding: 10px;
+    list-style: none;
+    background-color: white;
+    border: 1px solid rgb(245, 237, 237);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: -1px 1px 1px rgb(240 233 233);
+    margin-left: -61px;
+ 
+    
+}
+.threeDotes{
+    border: none;
+    border-radius: 5px;
+    font-size:large;
+    background: none;
+}

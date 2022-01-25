@@ -2,6 +2,17 @@ import React from 'react';
 import './Cards.css'
 
 const Cards = () => {
+   
+    function showMenu(){
+        let add = document.getElementsById("addPost")
+        if (add.style.display === "none" ){
+            add.style.display = "block"
+        } else {
+            add.style.display = "none"
+        }
+    }
+ 
+
     return (
         <div className='row row-cols-lg-2  container mx-auto pt-3'>
             <div>
@@ -11,7 +22,28 @@ const Cards = () => {
             <div class="card-body">
                 <p >✍️ Article</p>
                 <div className='newAgent'>
-                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>  <span className='threeDot'><i class="fas fa-ellipsis-h"></i></span>
+                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5> 
+                 <span className='threeDot'>
+                 <div class="accordion" id="accordionExample">
+                <div class="">
+                    <h2 class="accordion-header" id="headingTwo">
+                    <button class="threeDotes" type="" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class=" collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="">
+                    <ul id='addPost'  className='listOf '>
+                                    <li>Edit</li>
+                    <li>Report</li>
+                    <li>Option 3</li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+                     </span>
                 </div>
                 <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei….</p>
                 <div >
@@ -30,7 +62,28 @@ const Cards = () => {
             <div class="card-body">
                 <p>🔬️ Education</p>
                 <div className='newAgent'>
-                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>  <span className='threeDot'><i class="fas fa-ellipsis-h"></i></span>
+                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>  
+                <span className='threeDot'>
+                <div class="accordion" id="accordionExample">
+                <div class="">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="threeDotes" type="" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class=" collapse " aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="">
+                    <ul id='addPost'  className='listOf '>
+                                    <li>Edit</li>
+                    <li>Report</li>
+                    <li>Option 3</li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+                    </span>
                 </div>
                
                 <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei….</p>
@@ -50,7 +103,28 @@ const Cards = () => {
             <div class="card-body">
                 <p>🗓️ Meetup</p>
                 <div className='newAgent'>
-                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>  <span className='threeDot'><i class="fas fa-ellipsis-h"></i></span>
+                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5> 
+                 <span className='threeDot'>
+                 <div class="accordion" id="accordionExample">
+                <div class="">
+                    <h2 class="accordion-header" id="headingFour">
+                    <button class="threeDotes" type="" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                    </h2>
+                    <div id="collapseFour" class=" collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="">
+                    <ul id='addPost'  className='listOf '>
+                                    <li>Edit</li>
+                    <li>Report</li>
+                    <li>Option 3</li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+                     </span>
                 </div>
                 <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei….</p>
                 <div >
@@ -69,7 +143,29 @@ const Cards = () => {
             <div class="card-body">
                 <p>💼️ Job</p>
                 <div className='newAgent'>
-                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>  <span className='threeDot'><i class="fas fa-ellipsis-h"></i></span>
+                <h5 class="card-title w-75">What if famous brands had regular fonts? Meet RegulaBrands!  </h5>
+                  <span  className='threeDot'>
+                     
+                <div class="accordion" id="accordionExample">
+                <div class="">
+                    <h2 class="accordion-header" id="headingOne">
+                    <button class="threeDotes" type="" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class=" collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="">
+                    <ul id='addPost'  className='listOf '>
+                                    <li>Edit</li>
+                    <li>Report</li>
+                    <li>Option 3</li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+                    </span>
                 </div>
                 <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei….</p>
                 <div >
