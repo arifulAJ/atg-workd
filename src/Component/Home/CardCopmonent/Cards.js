@@ -3,14 +3,7 @@ import './Cards.css'
 
 const Cards = () => {
    
-    function showMenu(){
-        let add = document.getElementsById("addPost")
-        if (add.style.display === "none" ){
-            add.style.display = "block"
-        } else {
-            add.style.display = "none"
-        }
-    }
+  
  
 
     return (
@@ -140,7 +133,7 @@ const Cards = () => {
             </div>
          </div> 
          </div>
-             <div class="col">
+             <div class="col pb-5">
             <div class="card">
             {/* <img  src="https://i.ibb.co/gDhKz2d/atgc.png" class="card-img-top" alt="..."/> */}
             <div class="card-body">
@@ -170,7 +163,7 @@ const Cards = () => {
                 
                     </span>
                 </div>
-                <div  className='  w-75 mx-auto text-center   p-3'>
+                <div  className='   w-75 mx-auto text-center   p-3'>
               
                <p className='clickables'>Apply on Times jobs</p>
                </div>

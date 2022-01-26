@@ -18,6 +18,8 @@ const Navigation = () => {
             </div>
             <div>
                 <h3>Create account ,<span style={{color:"blue"}}>it's free</span></h3>
+                
+
             </div>
         </div>
         <div className='navigationSm px-2'>
